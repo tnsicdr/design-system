@@ -1,0 +1,12 @@
+import { Canvas, Meta } from "@storybook/addon-docs/blocks";
+
+import * as ButtonStories from "./component.stories";
+
+<Meta of={ButtonStories} />
+
+# Button
+
+A button is an interactable component that invokes a function on the same
+screen or context that might or might not result in navigation, but is not a link.
+
+<Canvas of={ButtonStories.Default} />

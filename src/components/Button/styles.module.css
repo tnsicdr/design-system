@@ -2,12 +2,31 @@
   /* RESET */
   -webkit-appearance: none;
   background: none;
-  border: none;
-  border-radius: 0;
+  border: 0;
   box-shadow: none;
   color: inherit;
   cursor: pointer;
   font: inherit;
-  padding: 0;
   text-align: inherit;
+
+  align-items: center;
+
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 8px;
+}
+
+/* Button Variants */
+.default {
+  background: black;
+  border: 1px solid gray;
+  color: white;
+}
+.error {
+}
+.success {
+}
+.warning {
 }
